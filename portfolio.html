@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио профессионального фотографа Алексея Вижн. Свадебные, портретные и коммерческие фотосессии.">
+    <title>Alex Vision - Портфолио | Работы фотографа</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">Alex Vision</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link active">Портфолио</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Portfolio Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title animate-fade-up">Портфолио</h1>
+                <p class="page-subtitle animate-fade-up" data-delay="200">Мои лучшие работы за 5 лет</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Filters -->
+        <section class="portfolio-filters">
+            <div class="container">
+                <div class="filter-buttons animate-fade-up">
+                    <button class="filter-btn active" data-filter="all">Все работы</button>
+                    <button class="filter-btn" data-filter="wedding">Свадьбы</button>
+                    <button class="filter-btn" data-filter="portrait">Портреты</button>
+                    <button class="filter-btn" data-filter="commercial">Коммерция</button>
+                    <button class="filter-btn" data-filter="family">Семейные</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid-section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <!-- Wedding Photos -->
+                    <div class="portfolio-item wedding animate-scale" data-category="wedding">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/wedding-1.jpg" alt="Свадебная фотосессия в парке" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Свадьба в парке</h3>
+                                <p>Естественные эмоции и красивые пейзажи</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item wedding animate-scale" data-category="wedding" data-delay="100">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/wedding-2.jpg" alt="Вечерняя свадебная церемония" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Вечерняя церемония</h3>
+                                <p>Романтическая атмосфера заката</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portrait Photos -->
+                    <div class="portfolio-item portrait animate-scale" data-category="portrait" data-delay="200">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/portrait-1.jpg" alt="Женский портрет в студии" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Студийный портрет</h3>
+                                <p>Классическая черно-белая фотография</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item portrait animate-scale" data-category="portrait" data-delay="300">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/portrait-2.jpg" alt="Мужской портрет на улице" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Уличный портрет</h3>
+                                <p>Естественный свет и городской бэкграунд</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Commercial Photos -->
+                    <div class="portfolio-item commercial animate-scale" data-category="commercial" data-delay="400">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/commercial-1.jpg" alt="Фотосессия для бренда одежды" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Фэшн съемка</h3>
+                                <p>Коллаборация с местным брендом одежды</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item commercial animate-scale" data-category="commercial" data-delay="500">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/commercial-2.jpg" alt="Предметная фотосъемка" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Предметная съемка</h3>
+                                <p>Профессиональная фотосъемка продукции</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Family Photos -->
+                    <div class="portfolio-item family animate-scale" data-category="family" data-delay="600">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/family-1.jpg" alt="Семейная фотосессия на природе" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Семья на природе</h3>
+                                <p>Теплые моменты семейного отдыха</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item family animate-scale" data-category="family" data-delay="700">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/family-2.jpg" alt="Детская фотосессия" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <h3>Детские эмоции</h3>
+                                <p>Искренние моменты детской радости</p>
+                                <button class="view-btn">Смотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container animate-fade-up">
+                    <button class="btn btn-secondary" id="loadMore">Загрузить еще</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title animate-fade-up">Отзывы клиентов</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial-item animate-fade-up">
+                        <div class="testimonial-content">
+                            <p>"Алексей — настоящий профессионал! Съемка прошла легко и непринужденно, а результат превзошел все ожидания. Обязательно будем обращаться еще!"</p>
+                            <div class="client-info">
+                                <h4>Мария и Иван</h4>
+                                <span>Свадебная съемка</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item animate-fade-up" data-delay="100">
+                        <div class="testimonial-content">
+                            <p>"Работали с Алексеем над коммерческим проектом. Очень внимателен к деталям, понимает задачу с полуслова. Результат — именно то, что нужно для бизнеса."</p>
+                            <div class="client-info">
+                                <h4>Ольга Петрова</h4>
+                                <span>Коммерческая съемка</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Alex Vision</h3>
+                    <p>Профессиональная фотосъемка, которая вдохновляет и рассказывает истории.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="portfolio.html">Портфолио</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Email: hello@alexvision.com</p>
+                    <p>Телефон: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alex Vision. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
